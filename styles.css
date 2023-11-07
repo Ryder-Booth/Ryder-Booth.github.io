@@ -55,3 +55,32 @@ body {
     max-height: 400px; 
     height: auto;
 }
+
+button {
+    background-color: #ABDCFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #83C4E0;
+}
+
+button:active {
+    background-color: #5DA3C5;
+}
+
+button:disabled {
+    background-color: #D8D8D8;
+    color: #707070;
+    cursor: not-allowed;
+}
+
+.hidden {
+    display: none;
+}
