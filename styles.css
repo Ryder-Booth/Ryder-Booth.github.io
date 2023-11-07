@@ -9,6 +9,13 @@
     opacity: 1;
 }
 
+@media (max-height: 400px) {
+    .container{
+      overflow-y: scroll ;
+      margin: 0 auto ;
+      position: static ;
+     }
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -26,6 +33,15 @@ body {
     border-radius: 10px;
     max-width: 700px;
     width: 85%;
+    margin-top: auto;
+}
+
+.section-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo-container {
@@ -41,6 +57,7 @@ body {
     border-radius: 10px;
     max-width: 85%;
     margin: 20px;
+    margin-bottom: auto;
 }
 
 .portfolio-item {
