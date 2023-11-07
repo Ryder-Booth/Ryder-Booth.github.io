@@ -1,7 +1,13 @@
+@media screen and (max-width: 1000px) {
+    .portfolio-item p {
+        display: none; /* Hide the description text */
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #ABDCFF;
-    margin: 0;
+    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +27,25 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+}
+
+.portfolio-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.portfolio-item img {
+    padding: 20px;
+    max-width: 85%;
+    max-height: 400px; 
+    height: auto;
 }
