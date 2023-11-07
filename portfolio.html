@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+   
+   <script>
+        function hidePortfolio() {
+            var secondPortfolio = document.querySelector('.portfolio-container:nth-child(2)');
+            secondPortfolio.classList.add('expand-portfolio');
+        }
+    </script>
+    
+</head>
+<body>
+    
+    <div class="portfolio-container">
+        <h2>Portfolio</h2>
+
+        <a href="index.html">Go to my Home page!</a>
+        
+        <div class="portfolio-item">
+            <div class="row">
+                <div class="column">
+                    <img src="Black and White Building.png" alt="Portfolio Item 1"">
+                </div>
+                <div class="column">
+                    <img src="Color Building.png" alt="Portfolio Item 1">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="portfolio-container">
+
+        <div class="portfolio-item">
+            <img src="Potland Stitch.png" alt="Portfolio Item 1">
+        </div>
+    </div>   
+    
+</body>
+</html>

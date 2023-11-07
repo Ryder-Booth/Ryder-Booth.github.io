@@ -1,8 +1,14 @@
 @media screen and (max-width: 1000px) {
-    .portfolio-item p {
-        display: none; /* Hide the description text */
+    .portfolio-container:nth-child(2) {
+        display: none; /* Hide the second portfolio container */
     }
 }
+
+/* Initially hide the second portfolio container */
+.portfolio-container:nth-child(2) {
+    opacity: 1;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -33,14 +39,14 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    max-width: 400px;
-    margin: 20px
+    max-width: 85%;
+    margin: 20px;
 }
 
 .portfolio-item {
     display: flex;
     align-items: center; 
-    justify-content: center; 
+    justify-content: space-between; 
 }
 
 .portfolio-item img {
